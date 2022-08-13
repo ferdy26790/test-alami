@@ -1,0 +1,32 @@
+.header {
+    border: 1px solid red;
+    padding: 12px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.header-brand {
+
+}
+
+.header-indicator {
+    text-align: center;
+}
+
+.header-nav {
+
+}
+
+.nav-item-menu {
+    padding: 0 6px;
+}
+
+.nav-item-menu:hover {
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.nav-item-menu.active {
+    color: aliceblue;
+}
+

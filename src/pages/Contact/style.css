@@ -1,0 +1,8 @@
+.contact-page-container {
+    padding-top: 16px;
+}
+
+.content-contact-page {
+    display: flex;
+    justify-content: center;
+}

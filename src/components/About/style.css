@@ -1,0 +1,49 @@
+.about-container {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+
+.about-container h4 {
+    text-align: center;
+}
+
+.about-container-left {
+    background-color: azure;
+    padding: 6px 12px;
+}
+.about-container-right {
+    background-color: aliceblue;
+}
+
+.about-container .content-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about-container-right .about-container-right-content {
+    /* height: 100px; */
+    padding: 6px 12px;
+
+}
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 599px) {
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+    .about-container .content-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+ 
+/* Medium screen devices (768px and below) */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .about-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .about-container .content-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
